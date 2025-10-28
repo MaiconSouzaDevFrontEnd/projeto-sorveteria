@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+Paleta de cores
+No desenvolvimento do projeto deve ser utilizada a seguinte paleta de cores:
+
+#FFFFFF
+#D9DDE1
+#474747
+#000000
+#F9DB79
+
+
+para criar ---
+
+npx create-next-app
+
