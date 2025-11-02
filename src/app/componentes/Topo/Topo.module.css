@@ -1,3 +1,44 @@
-.topo{
-    
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F9DB79;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1024px;
+    margin: auto;
+}
+
+.imgLogo{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.menu{
+    display: flex;
+    gap: 0 40px;
+    padding: 0 20px; 
+}
+
+.menu li{
+    list-style: none;
+}   
+
+.menu li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.5s;
+}
+
+.menu li a:hover{
+    color: #ff6f61;
 }

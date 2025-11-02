@@ -7,6 +7,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
+Tamanho da TELA 1080px, 1024px, 768px e 375px.
+
+
 Paleta de cores
 No desenvolvimento do projeto deve ser utilizada a seguinte paleta de cores:
 

@@ -1,10 +1,8 @@
-import Topo from "./componentes/Topo";
-import styles from "./page.module.css";
-
+import Pagina from '.Pagina/index.jsx';
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Topo />
+    <main>
+      <Pagina />
     </main>
   );
 }
