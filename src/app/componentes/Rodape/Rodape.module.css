@@ -11,7 +11,7 @@
     margin: auto;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     gap: 20px;
 }
 
@@ -21,22 +21,38 @@
     object-fit: cover;
 }
 
+.infosRodape{
+   display: flex;
+   justify-content: space-between;
+}
 .subInfos{
     padding: 20px;
-    background-color: rgb(6, 167, 195);
-    flex:0 1 auto;
 }
 
 .subInfos > * {
     color: #FFFFFF;
     font-size: 14px;
-    padding: 10px 0;
+    padding: 2px 0;
 }
 
-.rodape p{
+.subInfos h3{
+    font-size: 18px;
+    font-weight: bold;      
+}
+
+.subInfos p {
+    word-wrap: break-word;
+}
+.copyRight{
+    
+}
+
+.copyRight p{
     text-align: center;
     color: #FFFFFF;
 }
+
+
 
 .btnDevmedia{
     padding: 10px 40px;
