@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br" cz-shortcut-listen="true">
+    <html lang="pt-br">
       <body>
         <Topo />
         {children}
