@@ -6,6 +6,7 @@ export default function Home() {
             <section className={styles.bannerHome}>
                 <h1>SORVETE ARTESANAL</h1>
             </section>
+
         </main>
     );
 }
