@@ -1,0 +1,36 @@
+/* .sectionHome{
+    
+} */
+
+.bannerHome{
+  width: 100%;
+  min-height: 85vh;
+  background: #F9DB79 url("/banner-home.png") no-repeat center;
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHome h1{
+  font-size: 5rem;
+  color: white;
+  text-shadow: 3px 5px 2px #474747;
+}
+
+/* _______ */
+
+.sectionSabores{
+  display: flex;
+}
+
+.imgSabores{
+  width:50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.sectionSabores div article{
+  padding: 20px;
+}
