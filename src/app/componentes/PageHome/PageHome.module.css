@@ -1,9 +1,9 @@
-/* .sectionHome{
-    
-} */
+.sectionHome{
+    background: #FFF;
+}
 
 .bannerHome{
-  width: 100%;
+  max-width: 100%;
   min-height: 85vh;
   background: #F9DB79 url("/banner-home.png") no-repeat center;
   background-size: contain;
@@ -21,16 +21,37 @@
 
 /* _______ */
 
-.sectionSabores{
+.sectionContainers{
+  width:1080px;
+  margin: auto;
   display: flex;
 }
 
-.imgSabores{
+.imgContainers{
   width:50%;
   height: auto;
   object-fit: cover;
 }
 
-.sectionSabores div article{
-  padding: 20px;
+.sectionContainers div{
+  display: flex;
+  
+}
+
+.sectionContainers div article {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.sectionContainers .centerParagrafo{
+  text-align: center;
+}
+
+.sectionContainers div article p{
+  font-size: 15px;
+  margin-top: 15px;
+  line-height: 25px;
+  text-align: start;
 }
