@@ -35,7 +35,7 @@ export default function PageHome() {
             </section>
 
             <section className={styles.sectionContainers}>
-                <Image src={Sobre} className={styles.imgContainers} alt="Bolas de sorvete" />
+                <Image src={Sobre} className={styles.imgContainers} alt="Jovens" />
                 <div>
                     <article>
                         <h2>SOBRE NÓS</h2>
