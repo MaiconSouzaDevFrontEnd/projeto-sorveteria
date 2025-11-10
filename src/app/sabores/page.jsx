@@ -1,7 +1,7 @@
 export default function Sabores(){
     return(
-        <section>
-            <h1>Teste Sabores</h1>
-        </section>
+        <main className="conteudoPrincipal">
+            <h1>SAbores</h1>
+        </main>
     )
 }
