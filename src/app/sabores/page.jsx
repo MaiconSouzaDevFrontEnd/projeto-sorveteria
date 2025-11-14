@@ -14,7 +14,8 @@ import Limao from '../../../public/sorbet-limao.png';
 export default function Sabores(){
     return(
         <main className={styles.conteudoSabores}>
-            <header>
+            
+            <header className={styles.headerBanner}>
                 <h1 className={styles.titleSabores}>NOSSOS SABORES</h1>
             </header>
 
