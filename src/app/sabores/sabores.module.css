@@ -5,7 +5,7 @@
 }*/
 
 .headerBanner{
-    width: 100dvw;
+    width: 100%;
     height: 95dvh;
     background: url('../../../public/banner-sabores.jpg') no-repeat;
     background-size: cover;
@@ -29,18 +29,25 @@
 
 .containerSabores{}
 
-.titleOsSabores{}
+.titleOsSabores{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5em;
+}
 
 .cardsSabores{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: auto;
+    gap: 30px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
+    box-shadow: 0 0 7px 2px #474747;
+    border-radius: 20px;
 }
 
 .imgCard{
