@@ -3,7 +3,7 @@ import styles from './sobre.module.css';
 import Sobre from '../../../public/sobre-image.jpg';
 import Sorveteria from '../../../public/sorveteria.jpg';
 
-export default function Sobre(){
+export default function sobre(){
     return(
         <main>
             <header className={styles.headerBanner}>
@@ -36,5 +36,5 @@ export default function Sobre(){
                 <Image src={Sorveteria} alt='Dentro da sorveteria o local.' className={styles.img}/>
             </section>
         </main>
-    )
+    );
 }
