@@ -27,12 +27,14 @@
     text-shadow: 3px 5px 2px #474747;
 }
 
-.containerSabores{}
+.containerSabores{
+    margin: 3em auto 6em;
+}
 
 .titleOsSabores{
     text-align: center;
     font-size: 2em;
-    margin-top: 5em;
+    margin: 2em 0;
 }
 
 .cardsSabores{
@@ -45,20 +47,24 @@
 .card{
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    box-shadow: 0 0 7px 2px #474747;
+    padding: 20px;
+    box-shadow: 0 0 10px 0px #2423233a;
     border-radius: 20px;
 }
 
 .imgCard{
     flex:1;
-    
     width: 100%;
     height: auto;
     object-fit:cover;
     padding: 30px;
 }
 
-.titleCard{}
+.titleCard, .textoCard{
+    text-align: center;
+}
 
-.textoCard{}
+.textoCard{
+    margin-top: 5px;
+    padding: 5px;
+}
