@@ -11,7 +11,7 @@ export default function sobre(){
             </header>
 
             <section className={styles.containerSobre}>
-                <h2 className={styles.titleSobre}>Sobre Nós</h2>
+                <h2 className={styles.titleSubSobre}>Sobre Nós</h2>
 
                 <h3 className={styles.titleAmamosSorvete}>Nós simplesmente amamos sorvete!</h3>
 

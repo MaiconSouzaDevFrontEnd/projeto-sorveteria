@@ -11,7 +11,7 @@ import Limao from '../../../public/sorbet-limao.png';
 
 
 
-export default function Sabores(){
+export default function sabores(){
     return(
         <main className={styles.conteudoSabores}>
             
