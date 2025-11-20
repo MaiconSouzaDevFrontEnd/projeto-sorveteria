@@ -5,8 +5,9 @@
 }*/
 
 .headerBanner{
+    margin-top: 10vh;
     width: 100%;
-    height: 95dvh;
+    height:90dvh;
     background: url('../../../public/banner-sabores.jpg') no-repeat;
     background-size: cover;
 }

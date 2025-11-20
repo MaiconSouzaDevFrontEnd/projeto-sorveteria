@@ -1,10 +1,10 @@
 .header{
     width: 100%;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    left: 0; */
+    left: 0;
     background-color: #F9DB79;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .navbar{
@@ -12,12 +12,12 @@
     justify-content: space-between;
     align-items: center;
     width:1080px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .imgLogo{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
 }
 

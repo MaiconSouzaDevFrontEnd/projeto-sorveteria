@@ -14,10 +14,12 @@ export default function Rodape() {
                         <h3>ENDEREÇO</h3>
                         <p>Av. Bernardino de Campos, 98 São Paulo, SP 12345-678</p>
                     </div>
+
                     <div className={styles.subInfos}>
                         <h3>CONTATO</h3>
                         <p>info@meusite.com Tel: (11) 3456-7890</p>
                     </div>
+
                     <div className={styles.subInfos}>
                         <h3>HORÁRIOS</h3>
                         <p>ABERTO TODOS OS DIAS 10:00 - 22:00</p>
@@ -27,10 +29,13 @@ export default function Rodape() {
 
             <div className={styles.copyRight}>
                 <p>© 2025 Sorveteria Doçura Gelada. Todos os direitos reservados.</p>   
+                
                 <p>Orgulhosamente desenvolvido por "Maicon Souza da Silva".</p>
+
+                <Link href="https://www.devmedia.com.br/" target="_blank" className={styles.btnDevmedia} >Todo Crédito à Devmedia</Link>
+            
             </div>
             
-            <Link href="https://www.devmedia.com.br/" target="_blank" className={styles.btnDevmedia} >Todo Crédito à Devmedia</Link>
         </footer>
     );
 }

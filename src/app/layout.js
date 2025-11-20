@@ -4,8 +4,8 @@ import Rodape from "./componentes/Rodape";
 
 
 export const metadata = {
-  title: "Sorveteria Doçura Gelada",
-  description: "Sorveteria Doçura Gelada - O melhor sorvete da cidade",
+  title: "Sorveteria Gelateria",
+  description: "Sorveteria Gelateria - O melhor sorvete da cidade",
   robots: "index, follow",
 };
 
